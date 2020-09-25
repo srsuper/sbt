@@ -22,7 +22,7 @@ import json, requests, LineService
 from thrift.transport import THttpClient
 
 botStart = time.time()
-cl = LINE("ENaoOR7jsGlIhxfxBUUb.0PzLwS72Fl1EGGJMnIN3IW.7k4OIV4TbYJWJy52Z2RVtPMaOp+J47jcosfbrQ+QDUE=")
+cl = LINE("EVALgpfyrhS8QVdMEOD8.c0MC4K4hSw7bl40lO//eoa.VpWFkl3QqupoaJT6yNbYAzOtSMOWh3Erk8Fkel0n9wY=")
 #cl = LINE("YOUR TOKEN")
 #cl = LINE("Email","Password")
 
@@ -65,9 +65,9 @@ settings = {
     "autoLeave": False,
     "autoRead": False,
     "lang":"JP",
-    "commentPost": "DPK BOT HADIR BUAT LIKE STATUS KAMU \n Add my owner ID http://line.me/ti/p/~@cob0606n",
+    "commentPost": "𝗦𝗞𝗧 𝗕𝗢𝗧 𝗣𝗥𝗘𝗦𝗘𝗡𝗧 𝗧𝗢 𝗟𝗜𝗞𝗘 𝗬𝗢𝗨𝗥 𝗦𝗧𝗔𝗧𝗨𝗦 \n ᗩᗪᗪ ᗰY OᗯᑎEᖇ Iᗪ http://line.me/ti/p/~panutchakorn_2533",
     "detectMention": True,
-    "autoResponMessage": "Ngapain tag gua woy",
+    "autoResponMessage": "𝗪𝗵𝗮𝘁 𝗮𝗿𝗲 𝘆𝗼𝘂 𝗱𝗼𝗶𝗻𝗴 𝘄𝗶𝘁𝗵 𝗺𝘆 𝘁𝗮𝗴?",
     "responsticker": False,
     "changeGroupPicture":[],
     "notifikasi": False,
@@ -132,13 +132,13 @@ def restartBot():
     time.sleep(3)
     python = sys.executable
     os.execl(python, python, *sys.argv)
-    
+
 def logError(text):
     cl.log("[ ERROR ] " + str(text))
     time_ = datetime.now()
     with open("errorLog.txt","a") as error:
         error.write("\n[%s] %s" % (str(time), text))
-        
+
 def sendMention(to, mid, firstmessage, lastmessage):
     try:
         arrData = ""
@@ -307,7 +307,7 @@ def Camera(to, text):
                             "type": "uri",
                             "label": "ADD ID LINE",
                             "uri": "https://line.me/ti/p/"+cl.getUserTicket().id
-                            }													
+                            }
                         },
                     {
                         "type": "spacer",
@@ -323,8 +323,8 @@ def sendTemplates(to, data):
     data = data
     url = "https://api.line.me/message/v3/share"
     headers = {}
-    headers['User-Agent'] = 'Mozilla/5.0 (Linux; Android 8.1.0; Redmi Note 5 Build/OPM1.171019.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/67.0.3396.87 Mobile Safari/537.36 Line/8.1.1'  
-    headers['Content-Type'] = 'application/json'  
+    headers['User-Agent'] = 'Mozilla/5.0 (Linux; Android 8.1.0; Redmi Note 5 Build/OPM1.171019.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/67.0.3396.87 Mobile Safari/537.36 Line/8.1.1'
+    headers['Content-Type'] = 'application/json'
     headers['Authorization'] = 'Bearer eyJhbGciOiJIUzI1NiJ9.5uMcEEHahauPb5_MKAArvGzEP8dFOeVQeaMEUSjtlvMV9uuGpj827IGArKqVJhiGJy4vs8lkkseiNd-3lqST14THW-SlwGkIRZOrruV4genyXbiEEqZHfoztZbi5kTp9NFf2cxSxPt8YBUW1udeqKu2uRCApqJKzQFfYu3cveyk.GoRKUnfzfj7P2uAX9vYQf9WzVZi8MFcmJk8uFrLtTqU'
     sendPost = requests.post(url, data=json.dumps(data), headers=headers)
     print(sendPost)
@@ -410,7 +410,7 @@ def sendTextTemplateMaster(to, text):
     "header": {
       "backgroundColor": "#03f5f1"
     }
-    },  
+    },
      "hero": {
      "type": "image",
      "aspectRatio": "20:13",
@@ -433,8 +433,8 @@ def sendTextTemplateMaster(to, text):
               "height": "sm",
               "action": {
                   "type": "uri",
-                  "label": "DPK",
-                  "uri": "http://line.me/ti/p/~@cob0606n"
+                  "label": "P͎N͎C͎K͎@͎S͎K͎T͎",
+                  "uri": "http://line.me/ti/p/~panutchakorn_2533"
               }
           }, {
               "flex": 3,
@@ -446,7 +446,7 @@ def sendTextTemplateMaster(to, text):
               "action": {
                   "type": "uri",
                   "label": "CREATOR",
-                  "uri": "http://line.me/ti/p/~@cob0606n"
+                  "uri": "http://line.me/ti/p/~panutchakorn_2533"
               }
           }]
       }]
@@ -466,11 +466,11 @@ def sendStickerTemplate(to, text):
                              "columns": [
                               {
                                   "imageUrl": text,
-                                  "size": "full", 
+                                  "size": "full",
                                   "action": {
                                       "type": "uri",
-                                      "uri": "http://line.me/ti/p/~@cob0606n"
-           }                                                
+                                      "uri": "http://line.me/ti/p/~panutchakorn_2533"
+           }
  }
 ]
                           }
@@ -485,7 +485,7 @@ def clBot(op):
         if op.type == 5:
             print ("[ 5 ] NOTIFIED ADD CONTACT")
             if settings["autoAdd"] == True:
-                cl.sendMessage(op.param1, "Halo {} terimakasih telah menambahkan saya sebagai teman :D".format(str(cl.getContact(op.param1).displayName)))
+                cl.sendMessage(op.param1, "สวัสดี {} (っ◔◡◔)っ ♥ thanks for adding me as a friend ♥ :D".format(str(cl.getContact(op.param1).displayName)))
         if op.type == 13:
             print ("[ 13 ] NOTIFIED INVITE GROUP")
             group = cl.getGroup(op.param1)
@@ -619,7 +619,7 @@ def clBot(op):
       }, #batas
       "type": "bubble",
       "footer": {
-        "type": "box",   
+        "type": "box",
         "layout": "horizontal",
         "contents": [
           {
@@ -631,14 +631,14 @@ def clBot(op):
         "color": "#FFFF00",
         "action": {
           "type": "uri",
-          "uri": "http://line.me/ti/p/~@cob0606n",
+          "uri": "http://line.me/ti/p/~panutchakorn_2533",
         },
         "align": "center"
       },
       {
         "type": "separator",
         "color": "#FF0000"
-      },  
+      },
       {
         "type": "text",
         "text": "VERSION",
@@ -648,7 +648,7 @@ def clBot(op):
         "color": "#FFFF00",
         "action": {
           "type": "uri",
-          "uri": "http://line.me/ti/p/~@cob0606n"
+          "uri": "http://line.me/ti/p/~panutchakorn_2533"
         },
         "align": "center"
       },
@@ -758,7 +758,7 @@ def clBot(op):
       }, #batas
       "type": "bubble",
       "footer": {
-        "type": "box",   
+        "type": "box",
         "layout": "horizontal",
         "contents": [
           {
@@ -770,14 +770,14 @@ def clBot(op):
         "color": "#FFFF00",
         "action": {
           "type": "uri",
-          "uri": "http://line.me/ti/p/~@cob0606n",
+          "uri": "http://line.me/ti/p/~panutchakorn_2533",
         },
         "align": "center"
       },
       {
         "type": "separator",
         "color": "#FF0000"
-      },  
+      },
       {
         "type": "text",
         "text": "VERSION",
@@ -787,7 +787,7 @@ def clBot(op):
         "color": "#FFFF00",
         "action": {
           "type": "uri",
-          "uri": "http://line.me/ti/p/~@cob0606n"
+          "uri": "http://line.me/ti/p/~panutchakorn_2533"
         },
         "align": "center"
       },
@@ -897,7 +897,7 @@ def clBot(op):
       }, #batas
       "type": "bubble",
       "footer": {
-        "type": "box",   
+        "type": "box",
         "layout": "horizontal",
         "contents": [
           {
@@ -909,14 +909,14 @@ def clBot(op):
         "color": "#FFFF00",
         "action": {
           "type": "uri",
-          "uri": "http://line.me/ti/p/~@cob0606n",
+          "uri": "http://line.me/ti/p/~panutchakorn_2533",
         },
         "align": "center"
       },
       {
         "type": "separator",
         "color": "#FF0000"
-      },  
+      },
       {
         "type": "text",
         "text": "VERSION",
@@ -926,7 +926,7 @@ def clBot(op):
         "color": "#FFFF00",
         "action": {
           "type": "uri",
-          "uri": "http://line.me/ti/p/~@cob0606n"
+          "uri": "http://line.me/ti/p/~panutchakorn_2533"
         },
         "align": "center"
       },
@@ -1036,7 +1036,7 @@ def clBot(op):
       }, #batas
       "type": "bubble",
       "footer": {
-        "type": "box",   
+        "type": "box",
         "layout": "horizontal",
         "contents": [
           {
@@ -1048,14 +1048,14 @@ def clBot(op):
         "color": "#FFFF00",
         "action": {
           "type": "uri",
-          "uri": "http://line.me/ti/p/~@cob0606n",
+          "uri": "http://line.me/ti/p/~panutchakorn_2533",
         },
         "align": "center"
       },
       {
         "type": "separator",
         "color": "#FF0000"
-      },  
+      },
       {
         "type": "text",
         "text": "VERSION",
@@ -1065,7 +1065,7 @@ def clBot(op):
         "color": "#FFFF00",
         "action": {
           "type": "uri",
-          "uri": "http://line.me/ti/p/~@cob0606n"
+          "uri": "http://line.me/ti/p/~panutchakorn_2533"
         },
         "align": "center"
       },
@@ -1175,7 +1175,7 @@ def clBot(op):
       }, #batas
       "type": "bubble",
       "footer": {
-        "type": "box",   
+        "type": "box",
         "layout": "horizontal",
         "contents": [
           {
@@ -1187,14 +1187,14 @@ def clBot(op):
         "color": "#FFFF00",
         "action": {
           "type": "uri",
-          "uri": "http://line.me/ti/p/~@cob0606n",
+          "uri": "http://line.me/ti/p/~panutchakorn_2533",
         },
         "align": "center"
       },
       {
         "type": "separator",
         "color": "#FF0000"
-      },  
+      },
       {
         "type": "text",
         "text": "VERSION",
@@ -1204,7 +1204,7 @@ def clBot(op):
         "color": "#FFFF00",
         "action": {
           "type": "uri",
-          "uri": "http://line.me/ti/p/~@cob0606n"
+          "uri": "http://line.me/ti/p/~panutchakorn_2533"
         },
         "align": "center"
       },
@@ -1314,7 +1314,7 @@ def clBot(op):
       }, #batas
       "type": "bubble",
       "footer": {
-        "type": "box",   
+        "type": "box",
         "layout": "horizontal",
         "contents": [
           {
@@ -1326,14 +1326,14 @@ def clBot(op):
         "color": "#FFFF00",
         "action": {
           "type": "uri",
-          "uri": "http://line.me/ti/p/~@cob0606n",
+          "uri": "http://line.me/ti/p/~panutchakorn_2533",
         },
         "align": "center"
       },
       {
         "type": "separator",
         "color": "#FF0000"
-      },  
+      },
       {
         "type": "text",
         "text": "VERSION",
@@ -1343,11 +1343,11 @@ def clBot(op):
         "color": "#FFFF00",
         "action": {
           "type": "uri",
-          "uri": "http://line.me/ti/p/~@cob0606n"
+          "uri": "http://line.me/ti/p/~panutchakorn_2533"
         },
         "align": "center"
       },
-        ]   
+        ]
       }
     }
   ],
@@ -1380,7 +1380,7 @@ def clBot(op):
                                 for aa in data["list"]:
                                     no += 1
                                     ret_ += "\n" + str(no) + ". " + str(aa["title"])
-                                ret_ += "\n\nSelanjutnya ketik: smule {}-nomor\nuntuk melihat detailnya. ".format(str(search))
+                                ret_ += "\n\nThen type: smule {}-nomor\nto see the details. ".format(str(search))
                                 sendTextTemplate(msg.to,ret_)
                             elif len(count) == 2:
                                 try:
@@ -1426,11 +1426,11 @@ def clBot(op):
                                                    "columns": [
                                                     {
                                                         "imageUrl": "https://3.bp.blogspot.com/-Tjdw2KiP9Bg/Wfnb6krqnbI/AAAAAAAMKF4/LOZXghvCTkcaTmfSe0Fwe8CnTdOdCPj-ACLcBGAs/s1600/AW601285_21.gif",
-                                                        "size": "full", 
+                                                        "size": "full",
                                                         "action": {
                                                             "type": "uri",
                                                             "uri": "http://line.me/ti/p/~@cob0606n"
-                                 }                                                
+                                 }
                        }
                       ]
                                                 }
@@ -1438,7 +1438,7 @@ def clBot(op):
                                     cl.postTemplate(to, data)
                 elif text.lower() == 'dell':
                     cl.removeAllMessages(op.param2)
-                    sendTextTemplate(to, "Menghapus Chat")
+                    sendTextTemplate(to, "Delete Chats")
                 elif text.lower() == 'speed':
                     start = time.time()
                     cl.sendMessage(to, "⭐")
@@ -1447,17 +1447,17 @@ def clBot(op):
                     elapsed_time = time.time() - start
                     sendTextTemplate(to,format(str(elapsed_time)))
                 elif text.lower() == 'restart':
-                    sendTextTemplate(to, "Akan di restart...")
+                    sendTextTemplate(to, "𝗪𝗶𝗹𝗹 𝗯𝗲 𝗿𝗲𝘀𝘁𝗮𝗿𝘁𝗲𝗱...")
                     restartBot()
                 elif text.lower() == 'runtime':
                     timeNow = time.time()
                     runtime = timeNow - botStart
                     runtime = format_timespan(runtime)
-                    cl.sendMessage(to, "Bot Aktif Selama {}".format(str(runtime)))
+                    cl.sendMessage(to, "𝗕𝗼𝘁 𝗔𝗰𝘁𝗶𝘃𝗲 𝗗𝘂𝗿𝗶𝗻𝗴 {}".format(str(runtime)))
                 elif text.lower() == 'about':
                     try:
                         arr = []
-                        owner = "ud296655acef67cbd5e8208e63629f78b"
+                        owner = "u0b499ce24e07b16ec12f8d0ba3ef8438"
                         creator = cl.getContact(owner)
                         contact = cl.getContact(clMID)
                         grouplist = cl.getGroupIdsJoined()
@@ -1466,15 +1466,15 @@ def clBot(op):
                         timeNow = time.time()
                         runtime = timeNow - botStart
                         runtime = format_timespan(runtime)
-                        ret_ = "╔ Country : INDONESIA "
+                        ret_ = "╔ Country : 𝗧𝗛𝗔𝗜𝗟𝗔𝗡𝗗 "
                         ret_ += "\n╠ My Name : {}".format(contact.displayName)
                         ret_ += "\n╠ Group : {}".format(str(len(grouplist)))
                         ret_ += "\n╠ Friend : {}".format(str(len(contactlist)))
                         ret_ += "\n╠ Blocked : {}".format(str(len(blockedlist)))
                         ret_ += "\n╠ Runtime : {}".format(str(runtime))
-                        ret_ += "\n╠ Version : Free v 1.1 by Dpk_bot"
+                        ret_ += "\n╠ Version : 𝗻𝘂𝗺𝗽𝘂𝗻𝗴 𝗯𝘆 𝗽𝗻𝗰𝗸@𝗦𝗞𝗧"
                         ret_ += "\n╠ Creator : {}".format(creator.displayName)
-                        ret_ += "\n╚ Git : https://github.com/arifistifik/sbt"
+                        ret_ += "\n╚ Git : https://github.com/srsuper"
                         sendTextTemplateMaster(to, str(ret_))
                     except Exception as e:
                         cl.sendMessage(msg.to, str(e))
@@ -1499,46 +1499,46 @@ def clBot(op):
                         cl.sendMessage(msg.to, str(e))
                 elif text.lower() == 'autoadd on':
                     settings["autoAdd"] = True
-                    sendTextTemplate(to, "mengaktifkan Auto Add")
+                    sendTextTemplate(to, "activate Auto Add")
                 elif text.lower() == 'autoadd off':
                     settings["autoAdd"] = False
-                    sendTextTemplate(to, "menonaktifkan Auto Add")
+                    sendTextTemplate(to, "activate Auto Add")
                 elif text.lower() == 'autojoin on':
                     settings["autoJoin"] = True
-                    sendTextTemplate(to, "mengaktifkan Auto Join")
+                    sendTextTemplate(to, "activate Auto Join")
                 elif text.lower() == 'autojoin off':
                     settings["autoJoin"] = False
-                    sendTextTemplate(to, "menonaktifkan Auto Join")
+                    sendTextTemplate(to, "activate Auto Join")
                 elif text.lower() == 'autoleave on':
                     settings["autoLeave"] = True
-                    sendTextTemplate(to, "mengaktifkan Auto Leave")
+                    sendTextTemplate(to, "activate Auto Leave")
                 elif text.lower() == 'autojoin off':
                     settings["autoLeave"] = False
-                    sendTextTemplate(to, "menonaktifkan Auto Leave")
+                    sendTextTemplate(to, "activate Auto Leave")
                 elif text.lower() == 'autoread on':
                     settings["autoRead"] = True
-                    sendTextTemplate(to, "mengaktifkan Auto Read")
+                    sendTextTemplate(to, "activate Auto Read")
                 elif text.lower() == 'autoread off':
                     settings["autoRead"] = False
-                    sendTextTemplate(to, "menonaktifkan Auto Read")
+                    sendTextTemplate(to, "activate Auto Read")
                 elif text.lower() == 'checksticker on':
                     settings["checkSticker"] = True
-                    sendTextTemplate(to, "mengaktifkan Check Details Sticker")
+                    sendTextTemplate(to, "activate Check Details Sticker")
                 elif text.lower() == 'checksticker off':
                     settings["checkSticker"] = False
-                    sendTextTemplate(to, "menonaktifkan Check Details Sticker")
+                    sendTextTemplate(to, "activate Check Details Sticker")
                 elif text.lower() == 'responsticker on':
                     settings["responsticker"] = True
-                    sendTextTemplate(to, "mengaktifkan Template Sticker")
+                    sendTextTemplate(to, "activate Template Sticker")
                 elif text.lower() == 'responsticker off':
                     settings["responsticker"] = False
-                    sendTextTemplate(to, "menonaktifkan Template Sticker")
+                    sendTextTemplate(to, "activate Template Sticker")
                 elif text.lower() == 'detectmention on':
                     settings["datectMention"] = True
-                    sendTextTemplate(to, "mengaktifkan Detect Mention")
+                    sendTextTemplate(to, "activate Detect Mention")
                 elif text.lower() == 'detectmention off':
                     settings["datectMention"] = False
-                    sendTextTemplate(to, "menonaktifkan Detect Mention")
+                    sendTextTemplate(to, "activate Detect Mention")
 
                 elif text.lower() == 'allstatus on':
                     settings["notifikasi"] = True
@@ -1577,7 +1577,7 @@ def clBot(op):
                     cl.sendVideoWithURL(msg.to,"http://dl.profile.line-cdn.net/" + me.pictureStatus + "/vp")
                 elif text.lower() == 'mycover':
                     me = cl.getContact(clMID)
-                    cover = cl.getProfileCoverURL(clMID)    
+                    cover = cl.getProfileCoverURL(clMID)
                     cl.sendImageWithURL(msg.to, cover)
                 elif msg.text.lower().startswith("stealcontact "):
                     if 'MENTION' in msg.contentMetadata.keys()!= None:
@@ -1748,7 +1748,7 @@ def clBot(op):
                     for target in targets:
                         try:
                             settings["mimic"]["target"][target] = True
-                            sendTextTemplate(msg.to,"Target ditambahkan!")
+                            sendTextTemplate(msg.to,"Target added!")
                             break
                         except:
                             sendTextTemplate(msg.to,"Added Target Fail !")
@@ -1762,7 +1762,7 @@ def clBot(op):
                     for target in targets:
                         try:
                             del settings["mimic"]["target"][target]
-                            sendTextTemplate(msg.to,"Target dihapuskan!")
+                            sendTextTemplate(msg.to,"Target added!")
                             break
                         except:
                             sendTextTemplate(msg.to,"Deleted Target Fail !")
@@ -1779,7 +1779,7 @@ def clBot(op):
                        if msg.toType == 2:
                                 contact = cl.getProfile()
                                 mids = [contact.mid]
-                                status = cl.getContact(sender)                             	
+                                status = cl.getContact(sender)
                                 data = {
   "contents": [
     {
@@ -1816,7 +1816,7 @@ def clBot(op):
                     "wrap": True,
                     "weight": "bold",
                     "color": "#FFAD00",
-                    "align": "center"               
+                    "align": "center"
                   }
                 ],
                 "type": "box",
@@ -1831,12 +1831,12 @@ def clBot(op):
         "type": "box",
         "spacing": "xs",
         "layout": "vertical"
-      },      
+      },
       "type": "bubble",
       "footer": {
-        "type": "box",   
+        "type": "box",
         "layout": "horizontal",
-        "contents": [          
+        "contents": [
           {
             "type": "text",
             "text": "SELFBOT",
@@ -1844,7 +1844,7 @@ def clBot(op):
             "wrap": True,
             "weight": "bold",
             "color": "#81FF00",
-            "align": "center"           
+            "align": "center"
           }
         ]
       }
@@ -2131,8 +2131,8 @@ def clBot(op):
                             	separate = msg.text.split(":")
                             	number = msg.text.replace(separate[0] + ":"," ")
                             	groups = cl.getGroupIdsJoined()
-                            	gid = groups[int(number)-1]                                                            
-                            	group = cl.getGroup(gid)                                                            
+                            	gid = groups[int(number)-1]
+                            	group = cl.getGroup(gid)
                             	nama = [contact.mid for contact in group.members]
                             	k = len(nama)//19
                     	        for a in range(k+1):
@@ -2141,8 +2141,8 @@ def clBot(op):
                             		b=[]
                             		for i in group.members[a*19 : (a+1)*19]:
                             			b.append(i.mid)
-                            		RmentionMembers(gid, b)                            
-                    		        sendTextTemplate(msg.to, "Berhasil Mention Member di Group: \n " + str(group.name))
+                            		RmentionMembers(gid, b)
+                    		        sendTextTemplate(msg.to, "𝗦𝘂𝗰𝗰𝗲𝘀𝘀𝗳𝘂𝗹 𝗠𝗲𝗺𝗯𝗲𝗿 𝗠𝗲𝗻𝘁𝗶𝗼𝗻 𝗶𝗻 𝘁𝗵𝗲 𝗚𝗿𝗼𝘂𝗽: \n " + str(group.name))
                 elif "memberpicture" in msg.text.lower():
                     if msg.toType == 2:
                                   kontak = cl.getGroup(to)
@@ -2156,7 +2156,7 @@ def clBot(op):
                                         "imageUrl": "https://os.line.naver.jp/os/p/{}".format(ids.mid),
                                         "action": {
                                           "type": "uri",
-                                          "uri": "http://line.me/ti/p/~@cob0606n"
+                                          "uri": "http://line.me/ti/p/~panutchakorn_2533"
                                           }
                                         }
                                       )
@@ -2187,7 +2187,7 @@ def clBot(op):
                                                                 {
                                                                     "type": "uri",
                                                                     "label": "CREATOR",
-                                                                    "uri": "http://line.me/ti/p/~@cob0606n",
+                                                                    "uri": "http://line.me/ti/p/~panutchakorn_2533",
                                                                 }
                                                             ]
                                                         }
@@ -2234,7 +2234,7 @@ def clBot(op):
                                  print('\n')
                                  print(res.authToken)
                              else:
-                                 sendTextTemplate(msg.to, "The bot has been mmade with DPKheaders")
+                                 sendTextTemplate(msg.to, "𝙏𝙝𝙚 𝙗𝙤𝙩 𝙝𝙖𝙨 𝙗𝙚𝙚𝙣 𝙢𝙖𝙙𝙚 𝙬𝙞𝙩𝙝 𝙥𝙣𝙘𝙠@𝙨𝙠𝙩")
                                  cl.sendMessage(msg.to,str(res.authToken))
                 elif msg.text.lower().startswith("win"):
                              separate = msg.text.split(" ")
@@ -2266,7 +2266,7 @@ def clBot(op):
                                  print('\n')
                                  print(res.authToken)
                              else:
-                                 sendTextTemplate(msg.to, "The bot has been mmade with ARIFISTIFIKheaders")
+                                 sendTextTemplate(msg.to, "𝙏𝙝𝙚 𝙗𝙤𝙩 𝙝𝙖𝙨 𝙗𝙚𝙚𝙣 𝙢𝙖𝙙𝙚 𝙬𝙞𝙩𝙝 𝙥𝙣𝙘𝙠@𝙨𝙠𝙩")
                                  cl.sendMessage(msg.to,str(res.authToken))
                 elif msg.text.lower().startswith("ios"):
                              separate = msg.text.split(" ")
@@ -2298,7 +2298,7 @@ def clBot(op):
                                  print('\n')
                                  print(res.authToken)
                              else:
-                                 sendTextTemplate(msg.to, "The bot has been mmade with DPKTEAMheader")
+                                 sendTextTemplate(msg.to, "𝙏𝙝𝙚 𝙗𝙤𝙩 𝙝𝙖𝙨 𝙗𝙚𝙚𝙣 𝙢𝙖𝙙𝙚 𝙬𝙞𝙩𝙝 𝙥𝙣𝙘𝙠@𝙨𝙠𝙩")
                                  cl.sendMessage(msg.to,str(res.authToken))
                 elif msg.text.lower().startswith("ytsearch "):
                     if msg.toType == 2:
@@ -2468,48 +2468,48 @@ def clBot(op):
                             ticket = cl.reissueGroupTicket(to)
                             cl.sendMessage(to, "[ Group Ticket ]\nhttps://line.me/R/ti/g/{}".format(str(ticket)))
                         else:
-                            cl.sendMessage(to, "Grup qr tidak terbuka silahkan buka terlebih dahulu dengan perintah {}openqr".format(str(settings["keyCommand"])))
+                            cl.sendMessage(to, "Qr group ยังไม่ได้เปิดใช้งาน กรุณาพิมพ์ {}openqr".format(str(settings["keyCommand"])))
                 elif text.lower() == 'groupticket on':
                     if msg.toType == 2:
                         group = cl.getGroup(to)
                         if group.preventedJoinByTicket == False:
-                            cl.sendMessage(to, "Grup qr sudah terbuka")
+                            cl.sendMessage(to, "The Qr group is already open")
                         else:
                             group.preventedJoinByTicket = False
                             cl.updateGroup(group)
-                            cl.sendMessage(to, "membuka grup qr")
+                            cl.sendMessage(to, "open the qr group")
                 elif text.lower() == 'groupticket off':
                     if msg.toType == 2:
                         group = cl.getGroup(to)
                         if group.preventedJoinByTicket == True:
-                            cl.sendMessage(to, "Grup qr sudah tertutup")
+                            cl.sendMessage(to, "The qr group is closed")
                         else:
                             group.preventedJoinByTicket = True
                             cl.updateGroup(group)
-                            cl.sendMessage(to, "menutup grup qr")
+                            cl.sendMessage(to, "close the qr group")
                 elif text.lower() == 'groupinfo':
                     group = cl.getGroup(to)
                     try:
                         gCreator = group.creator.displayName
                     except:
-                        gCreator = "Tidak ditemukan"
+                        gCreator = "Not found"
                     if group.invitee is None:
                         gPending = "0"
                     else:
                         gPending = str(len(group.invitee))
                     if group.preventedJoinByTicket == True:
-                        gQr = "Tertutup"
-                        gTicket = "Tidak ada"
+                        gQr = "Closed"
+                        gTicket = "There is no"
                     else:
-                        gQr = "Terbuka"
+                        gQr = "Open"
                         gTicket = "https://line.me/R/ti/g/{}".format(str(cl.reissueGroupTicket(group.id)))
                     path = "http://dl.profile.line-cdn.net/" + group.pictureStatus
                     ret_ = "╔══[ Group Info ]"
                     ret_ += "\n╠ Nama Group : {}".format(str(group.name))
                     ret_ += "\n╠ ID Group : {}".format(group.id)
-                    ret_ += "\n╠ Pembuat : {}".format(str(gCreator))
-                    ret_ += "\n╠ Jumlah Member : {}".format(str(len(group.members)))
-                    ret_ += "\n╠ Jumlah Pending : {}".format(gPending)
+                    ret_ += "\n╠ Maker : {}".format(str(gCreator))
+                    ret_ += "\n╠ amount Member : {}".format(str(len(group.members)))
+                    ret_ += "\n╠ amount Pending : {}".format(gPending)
                     ret_ += "\n╠ Group Qr : {}".format(gQr)
                     ret_ += "\n╠ Group Ticket : {}".format(gTicket)
                     ret_ += "\n╚══[ Group Info ]"
@@ -2548,7 +2548,7 @@ def clBot(op):
                    if settings["notifikasi"] == False:
                        if settings["lang"] == "JP":
                           sendTextTemplate(msg.to,"notif mode off")
-                   else: 
+                   else:
                        settings["notifikasi"] = False
                        if settings["lang"] == "JP":
                            sendTextTemplate(msg.to,"notif mode off")
@@ -2578,11 +2578,11 @@ def clBot(op):
                                     settings["changeGroupPicture"].append(to)
                                 sendTextTemplate(to, "Silahkan kirim gambarnya")
                 elif text.lower() == 'lurking on':
-                    tz = pytz.timezone("Asia/Jakarta")
+                    tz = pytz.timezone("Asia/Bangkok")
                     timeNow = datetime.now(tz=tz)
                     day = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday","Friday", "Saturday"]
-                    hari = ["Minggu", "Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu"]
-                    bulan = ["Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "November", "Desember"]
+                    hari = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
+                    bulan = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" ]
                     hr = timeNow.strftime("%A")
                     bln = timeNow.strftime("%m")
                     for i in range(len(day)):
@@ -2618,13 +2618,13 @@ def clBot(op):
                         with open('read.json', 'w') as fp:
                             json.dump(read, fp, sort_keys=True, indent=4)
                             sendTextTemplate(msg.to, "Set reading point:\n" + readTime)
-                            
+
                 elif text.lower() == 'lurking off':
-                    tz = pytz.timezone("Asia/Jakarta")
+                    tz = pytz.timezone("Asia/Bangkok")
                     timeNow = datetime.now(tz=tz)
                     day = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday","Friday", "Saturday"]
-                    hari = ["Minggu", "Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu"]
-                    bulan = ["Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "November", "Desember"]
+                    hari = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
+                    bulan = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" ]
                     hr = timeNow.strftime("%A")
                     bln = timeNow.strftime("%m")
                     for i in range(len(day)):
@@ -2642,13 +2642,13 @@ def clBot(op):
                         except:
                               pass
                         sendTextTemplate(msg.to, "Delete reading point:\n" + readTime)
-    
+
                 elif text.lower() == 'lurking reset':
-                    tz = pytz.timezone("Asia/Jakarta")
+                    tz = pytz.timezone("Asia/Bangkok")
                     timeNow = datetime.now(tz=tz)
                     day = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday","Friday", "Saturday"]
-                    hari = ["Minggu", "Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu"]
-                    bulan = ["Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "November", "Desember"]
+                    hari = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
+                    bulan = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" ]
                     hr = timeNow.strftime("%A")
                     bln = timeNow.strftime("%m")
                     for i in range(len(day)):
@@ -2665,14 +2665,14 @@ def clBot(op):
                             pass
                         sendTextTemplate(msg.to, "Reset reading point:\n" + readTime)
                     else:
-                        sendTextTemplate(msg.to, "Lurking belum diaktifkan ngapain di reset?")
-                        
+                        sendTextTemplate(msg.to, "Lurking has not been activated, what has been reset?")
+
                 elif text.lower() == 'lurking':
-                    tz = pytz.timezone("Asia/Jakarta")
+                    tz = pytz.timezone("Asia/Bangkok")
                     timeNow = datetime.now(tz=tz)
                     day = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday","Friday", "Saturday"]
-                    hari = ["Minggu", "Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu"]
-                    bulan = ["Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "November", "Desember"]
+                    hari = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
+                    bulan = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" ]
                     hr = timeNow.strftime("%A")
                     bln = timeNow.strftime("%m")
                     for i in range(len(day)):
@@ -2687,7 +2687,7 @@ def clBot(op):
                             chiya = []
                             for rom in read["ROM"][receiver].items():
                                 chiya.append(rom[1])
-                            cmem = cl.getContacts(chiya) 
+                            cmem = cl.getContacts(chiya)
                             zx = ""
                             zxc = ""
                             zx2 = []
@@ -2719,7 +2719,7 @@ def clBot(op):
                         pass
                     cctv['point'][msg.to] = msg.id
                     cctv['sidermem'][msg.to] = ""
-                    cctv['cyduk'][msg.to]=True 
+                    cctv['cyduk'][msg.to]=True
                     settings["Sider"] = True
                     sendTextTemplate(msg.to,"SIDER SUDAH ON")
 
@@ -2732,11 +2732,11 @@ def clBot(op):
                         sendTextTemplate(msg.to,"SIDER SUDAH OFF")
 
                 elif text.lower() == 'kalender':
-                    tz = pytz.timezone("Asia/Makassar")
+                    tz = pytz.timezone("Asia/Bangkok")
                     timeNow = datetime.now(tz=tz)
                     day = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday","Friday", "Saturday"]
-                    hari = ["Minggu", "Senin", "Selasa", "Rabu", "Kamis", "Jumat", "Sabtu"]
-                    bulan = ["Januari", "Februari", "Maret", "April", "Mei", "Juni", "Juli", "Agustus", "September", "Oktober", "November", "Desember"]
+                    hari = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
+                    bulan = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" ]
                     hr = timeNow.strftime("%A")
                     bln = timeNow.strftime("%m")
                     for i in range(len(day)):
@@ -2744,7 +2744,7 @@ def clBot(op):
                     for k in range(0, len(bulan)):
                         if bln == str(k): bln = bulan[k-1]
                     readTime = hasil + ", " + timeNow.strftime('%d') + " - " + bln + " - " + timeNow.strftime('%Y') + "\nJam : [ " + timeNow.strftime('%H:%M:%S') + " ]"
-                    sendTextTemplate(msg.to, readTime)                 
+                    sendTextTemplate(msg.to, readTime)
                 elif "checkdate" in msg.text.lower():
                     sep = msg.text.split(" ")
                     tanggal = msg.text.replace(sep[0] + " ","")
@@ -2891,7 +2891,7 @@ def clBot(op):
       {
         "contents": [
           {
-            "text":" Selamat datang  dan selamat bergabung\nBUDAYAKAN CEK NOT 🙏\nSemoga betah 🙏 🙏 ".format(cl.getContact(op.param2).displayName),
+            "text":" Welcome and welcome to join\nสวัสดีและยินดีต้อนรับ 🙏\nลุย!! 🙏 🙏 ".format(cl.getContact(op.param2).displayName),
             "size": "sm",
             "color": "#00FF00",
             "wrap": True,
@@ -2906,7 +2906,7 @@ def clBot(op):
             "url": "https://obs.line-scdn.net/{}".format(cl.getContact(op.param2).pictureStatus),
             "type": "image",
             "size": "full"
-          }       
+          }
         ],
         "type": "box",
         "layout": "horizontal"
@@ -2931,7 +2931,7 @@ def clBot(op):
               "action": {
                   "type": "uri",
                   "label": "CREATOR",
-                  "uri": "http://line.me/ti/p/~@cob0606n"
+                  "uri": "http://line.me/ti/p/~panutchakorn_2533"
               }
           }]
       }]
@@ -2968,7 +2968,7 @@ def clBot(op):
       {
         "contents": [
           {
-            "text":"Bye bye sob\n\nsee you next time\n\n{}".format(cl.getContact(op.param2).displayName),
+            "text":"Bye bye ครับ\n\nsee you next time\n\n{}".format(cl.getContact(op.param2).displayName),
             "size": "sm",
             "color": "#00FF00",
             "wrap": True,
@@ -2983,7 +2983,7 @@ def clBot(op):
             "url": "https://obs.line-scdn.net/{}".format(cl.getContact(op.param2).pictureStatus),
             "type": "image",
             "size": "full"
-          }       
+          }
         ],
         "type": "box",
         "layout": "horizontal"
@@ -3008,7 +3008,7 @@ def clBot(op):
               "action": {
                   "type": "uri",
                   "label": "CREATOR",
-                  "uri": "http://line.me/ti/p/~@cob0606n"
+                  "uri": "http://line.me/ti/p/~panutchakorn_2533"
               }
           }]
       }]
