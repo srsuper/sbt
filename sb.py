@@ -277,7 +277,7 @@ def Camera(to, text):
                "aspectMode": "cover",
                "action": {
                  "type": "uri",
-                 "uri": "https://line.me/ti/p/~arifistifik"
+                 "uri": "https://line.me/ti/p/~panutchakorn_2533"
                  }
                },
                    "type": "bubble",
@@ -415,7 +415,7 @@ def sendTextTemplateMaster(to, text):
      "type": "image",
      "aspectRatio": "20:13",
      "aspectMode": "cover",
-     "url": "https://i.pinimg.com/474x/f5/95/3e/f5953e75376e51e38d909779b027d7f5--hack-online-email-address.jpg",
+     "url": "https://samrid.com/wp-content/uploads/2018/08/code-tools-370x210.jpg",
      "size": "full",
      "margin": "xl"
   },
@@ -537,7 +537,7 @@ def clBot(op):
                 "contents": [
                   {
                     "type": "text",
-                    "text": "SELFBOT ONLY",
+                    "text": "P͎N͎C͎K͎@͎S͎K͎T͎",
                     "size": "xl",
                     "wrap": True,
                     "weight": "bold",
@@ -555,7 +555,7 @@ def clBot(op):
           },
           {
             "type": "image",
-        "url": "https://i.pinimg.com/474x/f5/95/3e/f5953e75376e51e38d909779b027d7f5--hack-online-email-address.jpg", #hp
+        "url": "https://samrid.com/wp-content/uploads/2018/08/code-tools-370x210.jpg", #hp
         "aspectRatio": "2:1",
         "aspectMode": "cover",
         "size": "full",
@@ -595,7 +595,7 @@ def clBot(op):
               {
                 "contents": [
                   {
-                    "text": "║│ RESTART\n║│RUNTIME\n║│ STATUS\n║│ ABOUT\n║│ DELL(RCHAT)\n║│ MIMICDEL (@)\n║│ MIMICLIST\n║│ LURKING ON|OFF|RESET\n║│ LURKING",
+                    "text": "║│ RESTART\n║│ RUNTIME\n║│ STATUS\n║│ ABOUT\n║│ DELL(RCHAT)\n║│ MIMICDEL (@)\n║│ MIMICLIST\n║│ LURKING ON|OFF|RESET\n║│ LURKING",
                     "size": "xs",
                     "margin": "none",
                     "color": "#FFFF00",
@@ -624,7 +624,7 @@ def clBot(op):
         "contents": [
           {
             "type": "text",
-        "text": "DPKBOT",
+        "text": "ติดต่อ",
         "size": "xl",
         "wrap": True,
         "weight": "bold",
@@ -641,7 +641,7 @@ def clBot(op):
       },
       {
         "type": "text",
-        "text": "VERSION",
+        "text": "CONTACT",
         "size": "xl",
         "wrap": True,
         "weight": "bold",
@@ -676,7 +676,7 @@ def clBot(op):
                 "contents": [
                   {
                     "type": "text",
-                    "text": "SELFBOT ONLY",
+                    "text": "P͎N͎C͎K͎@͎S͎K͎T͎",
                     "size": "xl",
                     "wrap": True,
                     "weight": "bold",
@@ -694,7 +694,7 @@ def clBot(op):
           },
           {
             "type": "image",
-        "url": "https://i.pinimg.com/474x/f5/95/3e/f5953e75376e51e38d909779b027d7f5--hack-online-email-address.jpg", #hp
+        "url": "https://samrid.com/wp-content/uploads/2018/08/code-tools-370x210.jpg", #hp
         "aspectRatio": "2:1",
         "aspectMode": "cover",
         "size": "full",
@@ -763,7 +763,7 @@ def clBot(op):
         "contents": [
           {
             "type": "text",
-        "text": "DPKBOT",
+        "text": "ติดต่อ",
         "size": "xl",
         "wrap": True,
         "weight": "bold",
@@ -780,7 +780,7 @@ def clBot(op):
       },
       {
         "type": "text",
-        "text": "VERSION",
+        "text": "CONTACT",
         "size": "xl",
         "wrap": True,
         "weight": "bold",
@@ -815,7 +815,7 @@ def clBot(op):
                 "contents": [
                   {
                     "type": "text",
-                    "text": "SELFBOT ONLY",
+                    "text": "P͎N͎C͎K͎@͎S͎K͎T͎",
                     "size": "xl",
                     "wrap": True,
                     "weight": "bold",
@@ -833,7 +833,7 @@ def clBot(op):
           },
           {
             "type": "image",
-        "url": "https://i.pinimg.com/474x/f5/95/3e/f5953e75376e51e38d909779b027d7f5--hack-online-email-address.jpg", #hp
+        "url": "https://samrid.com/wp-content/uploads/2018/08/code-tools-370x210.jpg", #hp
         "aspectRatio": "2:1",
         "aspectMode": "cover",
         "size": "full",
@@ -902,7 +902,7 @@ def clBot(op):
         "contents": [
           {
             "type": "text",
-        "text": "DPKBOT",
+        "text": "ติดต่อ",
         "size": "xl",
         "wrap": True,
         "weight": "bold",
@@ -919,7 +919,7 @@ def clBot(op):
       },
       {
         "type": "text",
-        "text": "VERSION",
+        "text": "CONTACT",
         "size": "xl",
         "wrap": True,
         "weight": "bold",
@@ -954,7 +954,7 @@ def clBot(op):
                 "contents": [
                   {
                     "type": "text",
-                    "text": "SELFBOT ONLY",
+                    "text": "P͎N͎C͎K͎@͎S͎K͎T͎",
                     "size": "xl",
                     "wrap": True,
                     "weight": "bold",
@@ -972,7 +972,7 @@ def clBot(op):
           },
           {
             "type": "image",
-        "url": "https://i.pinimg.com/474x/f5/95/3e/f5953e75376e51e38d909779b027d7f5--hack-online-email-address.jpg", #hp
+        "url": "https://samrid.com/wp-content/uploads/2018/08/code-tools-370x210.jpg", #hp
         "aspectRatio": "2:1",
         "aspectMode": "cover",
         "size": "full",
@@ -1041,7 +1041,7 @@ def clBot(op):
         "contents": [
           {
             "type": "text",
-        "text": "DPKBOT",
+        "text": "ติดต่อ",
         "size": "xl",
         "wrap": True,
         "weight": "bold",
@@ -1058,7 +1058,7 @@ def clBot(op):
       },
       {
         "type": "text",
-        "text": "VERSION",
+        "text": "CONTACT",
         "size": "xl",
         "wrap": True,
         "weight": "bold",
@@ -1093,7 +1093,7 @@ def clBot(op):
                 "contents": [
                   {
                     "type": "text",
-                    "text": "SELFBOT ONLY",
+                    "text": "P͎N͎C͎K͎@͎S͎K͎T͎",
                     "size": "xl",
                     "wrap": True,
                     "weight": "bold",
@@ -1111,7 +1111,7 @@ def clBot(op):
           },
           {
             "type": "image",
-        "url": "https://i.pinimg.com/474x/f5/95/3e/f5953e75376e51e38d909779b027d7f5--hack-online-email-address.jpg", #hp
+        "url": "https://samrid.com/wp-content/uploads/2018/08/code-tools-370x210.jpg", #hp
         "aspectRatio": "2:1",
         "aspectMode": "cover",
         "size": "full",
@@ -1180,7 +1180,7 @@ def clBot(op):
         "contents": [
           {
             "type": "text",
-        "text": "DPKBOT",
+        "text": "ติดต่อ",
         "size": "xl",
         "wrap": True,
         "weight": "bold",
@@ -1197,7 +1197,7 @@ def clBot(op):
       },
       {
         "type": "text",
-        "text": "VERSION",
+        "text": "CONTACT",
         "size": "xl",
         "wrap": True,
         "weight": "bold",
@@ -1232,7 +1232,7 @@ def clBot(op):
                 "contents": [
                   {
                     "type": "text",
-                    "text": "SELFBOT ONLY",
+                    "text": "P͎N͎C͎K͎@͎S͎K͎T͎",
                     "size": "xl",
                     "wrap": True,
                     "weight": "bold",
@@ -1250,7 +1250,7 @@ def clBot(op):
           },
           {
             "type": "image",
-        "url": "https://i.pinimg.com/474x/f5/95/3e/f5953e75376e51e38d909779b027d7f5--hack-online-email-address.jpg", #hp
+        "url": "https://samrid.com/wp-content/uploads/2018/08/code-tools-370x210.jpg", #hp
         "aspectRatio": "2:1",
         "aspectMode": "cover",
         "size": "full",
@@ -1319,7 +1319,7 @@ def clBot(op):
         "contents": [
           {
             "type": "text",
-        "text": "DPKBOT",
+        "text": "ติดต่อ",
         "size": "xl",
         "wrap": True,
         "weight": "bold",
@@ -1336,7 +1336,7 @@ def clBot(op):
       },
       {
         "type": "text",
-        "text": "VERSION",
+        "text": "CONTACT",
         "size": "xl",
         "wrap": True,
         "weight": "bold",
@@ -1387,8 +1387,8 @@ def clBot(op):
                                     num = int(count[1])
                                     b = data["list"][num - 1]
                                     smule = str(b["web_url"])
-                                    c = "Judul Oc: "+str(b["title"])
-                                    c += "\nPembuat: "+str(b["owner"]["handle"])
+                                    c = "รายการ: "+str(b["title"])
+                                    c += "\nCreator: "+str(b["owner"]["handle"])
                                     c += "\nTotal like: "+str(b["stats"]["total_loves"])+" like"
                                     c += "\nTotal comment: "+str(b["stats"]["total_comments"])+" comment"
                                     c += "\nStatus VIP: "+str(b["owner"]["is_vip"])
@@ -1429,7 +1429,7 @@ def clBot(op):
                                                         "size": "full",
                                                         "action": {
                                                             "type": "uri",
-                                                            "uri": "http://line.me/ti/p/~@cob0606n"
+                                                            "uri": "http://line.me/ti/p/~panutchakorn_2533"
                                  }
                        }
                       ]
@@ -1474,7 +1474,7 @@ def clBot(op):
                         ret_ += "\n╠ Runtime : {}".format(str(runtime))
                         ret_ += "\n╠ Version : 𝗻𝘂𝗺𝗽𝘂𝗻𝗴 𝗯𝘆 𝗽𝗻𝗰𝗸@𝗦𝗞𝗧"
                         ret_ += "\n╠ Creator : {}".format(creator.displayName)
-                        ret_ += "\n╚ Git : https://github.com/srsuper"
+                        ret_ += "\n╚ ↫↫↫↫↫ หัวใจไม่รักดี พังกี่ทีไม่รู้จักจำ ↬↬↬↬↬"
                         sendTextTemplateMaster(to, str(ret_))
                     except Exception as e:
                         cl.sendMessage(msg.to, str(e))
@@ -1493,7 +1493,7 @@ def clBot(op):
                         else: ret_ += "\n║│🔴 Notif [OFF]"
                         if settings["detectMention"] == True: ret_ += "\n║│🔵 Detect Mention [ON]"
                         else: ret_ += "\n║│🔴 Detect Mention [OFF]"
-                        ret_ += "\n║┝───────────────\n║╰❉      DPK BOT      ❇\n╰━━━━━━━━━━━━━━━━\n━━━━┅═❉ই۝ई❉═┅━━━━"
+                        ret_ += "\n║┝───────────────\n║╰❉      𝗽𝗻𝗰𝗸@𝗦𝗞𝗧      ❇\n╰━━━━━━━━━━━━━━━━\n━━━━┅═❉ই۝ई❉═┅━━━━"
                         sendTextTemplateMaster(to, str(ret_))
                     except Exception as e:
                         cl.sendMessage(msg.to, str(e))
@@ -1547,7 +1547,7 @@ def clBot(op):
                     settings["autoLeave"] = True
                     settings["autoRead"] = True
                     settings["datectMention"] = True
-                    sendTextTemplate(to, "Allstatus bot mode on")
+                    sendTextTemplate(to, "▁ ▂ ▄ ▅ ▆ ▇ █ 🔵ON ระบบป้องกันทั้งหมด!! █ ▇ ▆ ▅ ▄ ▂ ▁")
 
                 elif text.lower() == 'allstatus off':
                     settings["notifikasi"] = False
@@ -1556,7 +1556,7 @@ def clBot(op):
                     settings["autoLeave"] = False
                     settings["autoRead"] = False
                     settings["datectMention"] = False
-                    sendTextTemplate(to, "Allstatus bot mode on")
+                    sendTextTemplate(to, "▁ ▂ ▄ ▅ ▆ ▇ █ 🔴OFF ระบบป้องกันทั้งหมด!! █ ▇ ▆ ▅ ▄ ▂ ▁")
 
                 elif text.lower() == 'mycontact':
                     sendMessageWithMention(to, clMID)
@@ -1727,7 +1727,7 @@ def clBot(op):
                             cl.cloneContactProfile(contact)
                             sendTextTemplate(msg.to, "clone member ")
                         except:
-                            sendTextTemplate(msg.to, "Gagal clone member")
+                            sendTextTemplate(msg.to, "Failed clone member")
                 elif text.lower() == 'restoreprofile':
                     try:
                         clProfile.displayName = str(myProfile["displayName"])
@@ -1737,7 +1737,7 @@ def clBot(op):
                         cl.updateProfile(clProfile)
                         sendTextTemplate(msg.to, "restore profile ")
                     except:
-                        sendTextTemplate(msg.to, "Gagal restore profile")
+                        sendTextTemplate(msg.to, "Failed to restore profile")
 
                 elif msg.text.lower().startswith("mimicadd "):
                     targets = []
@@ -1748,10 +1748,10 @@ def clBot(op):
                     for target in targets:
                         try:
                             settings["mimic"]["target"][target] = True
-                            sendTextTemplate(msg.to,"Target added!")
+                            sendTextTemplate(msg.to,"บันทึกเรียบร้อย add!!")
                             break
                         except:
-                            sendTextTemplate(msg.to,"Added Target Fail !")
+                            sendTextTemplate(msg.to,"บันทึกไม่สำเร็จ Fail!!")
                             break
                 elif msg.text.lower().startswith("mimicdel "):
                     targets = []
@@ -1762,14 +1762,14 @@ def clBot(op):
                     for target in targets:
                         try:
                             del settings["mimic"]["target"][target]
-                            sendTextTemplate(msg.to,"Target added!")
+                            sendTextTemplate(msg.to,"ลบข้อมูล สำเร็จ!!")
                             break
                         except:
-                            sendTextTemplate(msg.to,"Deleted Target Fail !")
+                            sendTextTemplate(msg.to,"ลบข้อมูลไม่สำเร็จ Fail !")
                             break
                 elif text.lower() == 'mimiclist':
                     if settings["mimic"]["target"] == {}:
-                        sendTextTemplate(msg.to,"Tidak Ada Target")
+                        sendTextTemplate(msg.to,"ไม่พบข้อมูล!!")
                     else:
                         mc = "╔══[ Mimic List ]"
                         for mi_d in settings["mimic"]["target"]:
@@ -1839,7 +1839,7 @@ def clBot(op):
         "contents": [
           {
             "type": "text",
-            "text": "SELFBOT",
+            "text": "P͎N͎C͎K͎@͎S͎K͎T͎",
             "size": "xl",
             "wrap": True,
             "weight": "bold",
@@ -2182,7 +2182,7 @@ def clBot(op):
                                                 else:
                                                     ret_.append({
                                                             "title": "{}".format(fn["name"]),
-                                                            "text": "ketik Sesuai ketikan di atas",
+                                                            "text": "★彡 #ยังไม่เปิดให้ใช้# 彡★",
                                                             "actions": [
                                                                 {
                                                                     "type": "uri",
@@ -2504,21 +2504,21 @@ def clBot(op):
                         gQr = "Open"
                         gTicket = "https://line.me/R/ti/g/{}".format(str(cl.reissueGroupTicket(group.id)))
                     path = "http://dl.profile.line-cdn.net/" + group.pictureStatus
-                    ret_ = "╔══[ Group Info ]"
-                    ret_ += "\n╠ Nama Group : {}".format(str(group.name))
-                    ret_ += "\n╠ ID Group : {}".format(group.id)
-                    ret_ += "\n╠ Maker : {}".format(str(gCreator))
-                    ret_ += "\n╠ amount Member : {}".format(str(len(group.members)))
-                    ret_ += "\n╠ amount Pending : {}".format(gPending)
-                    ret_ += "\n╠ Group Qr : {}".format(gQr)
-                    ret_ += "\n╠ Group Ticket : {}".format(gTicket)
-                    ret_ += "\n╚══[ Group Info ]"
+                    ret_ = "╔══[ .•♫•♬• ข้อมูลกลุ่ม •♬•♫•. ]"
+                    ret_ += "\n╠ 𝗚𝗿𝗼𝘂𝗽 : {}".format(str(group.name))
+                    ret_ += "\n╠ 𝗜𝗗 𝗚𝗿𝗼𝘂𝗽 : {}".format(group.id)
+                    ret_ += "\n╠ 𝗠𝗮𝗸𝗲𝗿 : {}".format(str(gCreator))
+                    ret_ += "\n╠ 𝗔𝗺𝗼𝘂𝗻𝘁 𝗠𝗲𝗺𝗯𝗲𝗿 : {}".format(str(len(group.members)))
+                    ret_ += "\n╠ 𝗔𝗺𝗼𝘂𝗻𝘁 𝗣𝗲𝗻𝗱𝗶𝗻𝗴 : {}".format(gPending)
+                    ret_ += "\n╠ 𝗚𝗿𝗼𝘂𝗽 𝗤𝗿 : {}".format(gQr)
+                    ret_ += "\n╠ 𝗚𝗿𝗼𝘂𝗽 𝗧𝗶𝗰𝗸𝗲𝘁 : {}".format(gTicket)
+                    ret_ += "\n╚══[ ıllıllı ข้อมูล ประมาณ นี้ ıllıllı ]"
                     cl.sendMessage(to, str(ret_))
                     cl.sendImageWithURL(to, path)
                 elif text.lower() == 'groupmemberlist':
                     if msg.toType == 2:
                         group = cl.getGroup(to)
-                        ret_ = "╔══[ Member List ]"
+                        ret_ = "╔══[ ★彡 รายชื่อสมาชิก 彡★ ]"
                         no = 0 + 1
                         for mem in group.members:
                             ret_ += "\n╠ {}. {}".format(str(no), str(mem.displayName))
@@ -2527,7 +2527,7 @@ def clBot(op):
                         sendTextTemplate(to, str(ret_))
                 elif text.lower() == 'grouplist':
                         groups = cl.groups
-                        ret_ = "╔══[ Group List ]"
+                        ret_ = "╔══[ G͓̽r͓̽o͓̽u͓̽p͓̽ ͓̽L͓̽i͓̽s͓̽t͓̽ ]"
                         no = 0 + 1
                         for gid in groups:
                             group = cl.getGroup(gid)
@@ -2538,20 +2538,20 @@ def clBot(op):
                 elif text.lower() == 'notif on':
                    if settings["notifikasi"] == True:
                        if settings["lang"] == "JP":
-                           sendTextTemplate(msg.to,"notif mode on")
+                           sendTextTemplate(msg.to,"การแจ้งเตือน mode on")
                    else:
                        settings["notifikasi"] = True
                        if settings["lang"] == "JP":
-                           sendTextTemplate(msg.to,"notif mode on")
+                           sendTextTemplate(msg.to,"การแจ้งเตือน mode on")
 
                 elif text.lower() == 'notif off':
                    if settings["notifikasi"] == False:
                        if settings["lang"] == "JP":
-                          sendTextTemplate(msg.to,"notif mode off")
+                          sendTextTemplate(msg.to,"การแจ้งเตือน mode off")
                    else:
                        settings["notifikasi"] = False
                        if settings["lang"] == "JP":
-                           sendTextTemplate(msg.to,"notif mode off")
+                           sendTextTemplate(msg.to,"การแจ้งเตือน mode off")
                 elif text.lower() == 'tag':
                             if msg.toType == 0:
                                 sendMention(to, to, "", "")
@@ -2561,7 +2561,7 @@ def clBot(op):
                                 midSelect = len(midMembers)//20
                                 for mentionMembers in range(midSelect+1):
                                     no = 0
-                                    ret_ = "╔══[ Mention Members ]"
+                                    ret_ = "╔══[ 💢🍮  ขออนุญาติ ｔÃg นะครับ  👹💀 ]"
                                     dataMid = []
                                     for dataMention in group.members[mentionMembers*20 : (mentionMembers+1)*20]:
                                         dataMid.append(dataMention.mid)
@@ -2571,12 +2571,12 @@ def clBot(op):
                                     cl.sendMention(msg.to, ret_, dataMid)
                 elif text.lower() == 'changepictureprofile':
                             settings["changePicture"] = True
-                            sendTextTemplate(to, "Silahkan kirim gambarnya")
+                            sendTextTemplate(to, "กรุณาส่งภาพมาให้เรา")
                 elif text.lower() == 'changegrouppicture':
                             if msg.toType == 2:
                                 if to not in settings["changeGroupPicture"]:
                                     settings["changeGroupPicture"].append(to)
-                                sendTextTemplate(to, "Silahkan kirim gambarnya")
+                                sendTextTemplate(to, "กรุณาส่งภาพมาให้เรา")
                 elif text.lower() == 'lurking on':
                     tz = pytz.timezone("Asia/Bangkok")
                     timeNow = datetime.now(tz=tz)
@@ -2665,7 +2665,7 @@ def clBot(op):
                             pass
                         sendTextTemplate(msg.to, "Reset reading point:\n" + readTime)
                     else:
-                        sendTextTemplate(msg.to, "Lurking has not been activated, what has been reset?")
+                        sendTextTemplate(msg.to, "Lurking ยังไม่ได้เปิดใช้, แล้วจะให้รีเซ็ท อะไร?")
 
                 elif text.lower() == 'lurking':
                     tz = pytz.timezone("Asia/Bangkok")
@@ -2679,7 +2679,7 @@ def clBot(op):
                         if hr == day[i]: hasil = hari[i]
                     for k in range(0, len(bulan)):
                         if bln == str(k): bln = bulan[k-1]
-                    readTime = hasil + ", " + timeNow.strftime('%d') + " - " + bln + " - " + timeNow.strftime('%Y') + "\nJam : [ " + timeNow.strftime('%H:%M:%S') + " ]"
+                    readTime = hasil + ", " + timeNow.strftime('%d') + " - " + bln + " - " + timeNow.strftime('%Y') + "\nเวลา : [ " + timeNow.strftime('%H:%M:%S') + " ]"
                     if receiver in read['readPoint']:
                         if read["ROM"][receiver].items() == []:
                             cl.sendMessage(receiver,"[ Reader ]:\nNone")
@@ -2708,7 +2708,7 @@ def clBot(op):
                             print (error)
                         pass
                     else:
-                        sendTextTemplate(receiver,"ketik[ lurking on ]dulu peak lu")
+                        sendTextTemplate(receiver,"พิมพ์ [lurking on]จุดสูงสุดแรกคุณ")
 
                 elif text.lower() == 'sider on':
                     try:
@@ -2721,15 +2721,15 @@ def clBot(op):
                     cctv['sidermem'][msg.to] = ""
                     cctv['cyduk'][msg.to]=True
                     settings["Sider"] = True
-                    sendTextTemplate(msg.to,"SIDER SUDAH ON")
+                    sendTextTemplate(msg.to,"SIDER เปิดแล้ว!!")
 
                 elif text.lower() == 'sider off':
                     if msg.to in cctv['point']:
                        cctv['cyduk'][msg.to]=False
                        settings["Sider"] = False
-                       sendTextTemplate(msg.to,"SIDER SUDAH OFF")
+                       sendTextTemplate(msg.to,"SIDER ปิดแล้ว!!")
                     else:
-                        sendTextTemplate(msg.to,"SIDER SUDAH OFF")
+                        sendTextTemplate(msg.to,"SIDER ปิดแล้ว!!")
 
                 elif text.lower() == 'kalender':
                     tz = pytz.timezone("Asia/Bangkok")
@@ -2776,13 +2776,13 @@ def clBot(op):
                         path = cl.downloadObjectMsg(msg_id)
                         settings["changePicture"] = False
                         cl.updateProfilePicture(path)
-                        sendTextTemplate(to, "mengubah foto profile")
+                        sendTextTemplate(to, "เปลี่ยนรูปโปรไฟล!!์")
                     if msg.toType == 2:
                         if to in settings["changeGroupPicture"]:
                             path = cl.downloadObjectMsg(msg_id)
                             settings["changeGroupPicture"].remove(to)
                             cl.updateGroupPicture(to, path)
-                            sendTextTemplate(to, "mengubah foto group")
+                            sendTextTemplate(to, "เปลี่ยนรูปภาพกลุ่ม!!")
 
         if op.type == 26 or op.type == 25:
             print ("[ 26 ] RECEIVE MESSAGE")
