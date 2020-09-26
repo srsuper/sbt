@@ -22,9 +22,9 @@ import json, requests, LineService
 from thrift.transport import THttpClient
 
 botStart = time.time()
-cl = LINE("EVALgpfyrhS8QVdMEOD8.c0MC4K4hSw7bl40lO//eoa.VpWFkl3QqupoaJT6yNbYAzOtSMOWh3Erk8Fkel0n9wY=")
+#cl = LINE("EVALgpfyrhS8QVdMEOD8.c0MC4K4hSw7bl40lO//eoa.VpWFkl3QqupoaJT6yNbYAzOtSMOWh3Erk8Fkel0n9wY=")
 #cl = LINE("YOUR TOKEN")
-#cl = LINE("Email","Password")
+cl = LINE("panutchakorn_2533@hotmail.com","takumi2533")
 
 cl.log("Auth Token : " + str(cl.authToken))
 channelToken = cl.getChannelResult()
