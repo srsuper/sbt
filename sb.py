@@ -2743,7 +2743,7 @@ def clBot(op):
                         if hr == day[i]: hasil = hari[i]
                     for k in range(0, len(bulan)):
                         if bln == str(k): bln = bulan[k-1]
-                    readTime ="บันทึกเวลา" + hasil + ", " + timeNow.strftime('%d') + " - " + bln + " - " + timeNow.strftime('%Y') + "\nJam : [ " + timeNow.strftime('%H:%M:%S') + " ]"
+                    readTime ="บันทึกเวลา เข้า\n" + hasil + ", " + timeNow.strftime('%d') + " - " + bln + " - " + timeNow.strftime('%Y') + "\nเวลา : [ " + timeNow.strftime('%H:%M:%S') + " ]"
                     sendTextTemplate(msg.to, readTime)
                 elif text.lower() == 'out':
                     tz = pytz.timezone("Asia/Bangkok")
@@ -2757,7 +2757,7 @@ def clBot(op):
                         if hr == day[i]: hasil = hari[i]
                     for k in range(0, len(bulan)):
                         if bln == str(k): bln = bulan[k-1]
-                    readTime ="บันทึกเวลา" + hasil + ", " + timeNow.strftime('%d') + " - " + bln + " - " + timeNow.strftime('%Y') + "\nJam : [ " + timeNow.strftime('%H:%M:%S') + " ]"
+                    readTime ="บันทึกเวลา ออก\n" + hasil + ", " + timeNow.strftime('%d') + " - " + bln + " - " + timeNow.strftime('%Y') + "\nเวลา : [ " + timeNow.strftime('%H:%M:%S') + " ]"
                     sendTextTemplate(msg.to, readTime)
                 elif "checkdate" in msg.text.lower():
                     sep = msg.text.split(" ")
