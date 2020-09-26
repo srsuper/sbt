@@ -2561,7 +2561,7 @@ def clBot(op):
                                 midSelect = len(midMembers)//20
                                 for mentionMembers in range(midSelect+1):
                                     no = 0
-                                    ret_ = "╔══[ 💢🍮  ขออนุญาติ ｔÃg นะครับ  👹💀 ]"
+                                    ret_ = "╔══[ ขออนุญาติ ｔÃg นะครับ ]"
                                     dataMid = []
                                     for dataMention in group.members[mentionMembers*20 : (mentionMembers+1)*20]:
                                         dataMid.append(dataMention.mid)
@@ -2731,7 +2731,7 @@ def clBot(op):
                     else:
                         sendTextTemplate(msg.to,"SIDER ปิดแล้ว!!")
 
-                elif text.lower() == 'kalender':
+                elif text.lower() == 'in':
                     tz = pytz.timezone("Asia/Bangkok")
                     timeNow = datetime.now(tz=tz)
                     day = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday","Friday", "Saturday"]
@@ -2743,7 +2743,21 @@ def clBot(op):
                         if hr == day[i]: hasil = hari[i]
                     for k in range(0, len(bulan)):
                         if bln == str(k): bln = bulan[k-1]
-                    readTime = hasil + ", " + timeNow.strftime('%d') + " - " + bln + " - " + timeNow.strftime('%Y') + "\nJam : [ " + timeNow.strftime('%H:%M:%S') + " ]"
+                    readTime ="บันทึกเวลา" hasil + ", " + timeNow.strftime('%d') + " - " + bln + " - " + timeNow.strftime('%Y') + "\nJam : [ " + timeNow.strftime('%H:%M:%S') + " ]"
+                    sendTextTemplate(msg.to, readTime)
+                elif text.lower() == 'out':
+                    tz = pytz.timezone("Asia/Bangkok")
+                    timeNow = datetime.now(tz=tz)
+                    day = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday","Friday", "Saturday"]
+                    hari = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
+                    bulan = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December" ]
+                    hr = timeNow.strftime("%A")
+                    bln = timeNow.strftime("%m")
+                    for i in range(len(day)):
+                        if hr == day[i]: hasil = hari[i]
+                    for k in range(0, len(bulan)):
+                        if bln == str(k): bln = bulan[k-1]
+                    readTime ="บันทึกเวลา" hasil + ", " + timeNow.strftime('%d') + " - " + bln + " - " + timeNow.strftime('%Y') + "\nJam : [ " + timeNow.strftime('%H:%M:%S') + " ]"
                     sendTextTemplate(msg.to, readTime)
                 elif "checkdate" in msg.text.lower():
                     sep = msg.text.split(" ")
